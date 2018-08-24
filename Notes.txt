@@ -1,0 +1,9 @@
+Difference between Python and R: indexing start from 0 in python while it starts from 1 in R
+
+iloc -> integer-location based indexing for selection by position.
+Imputer #for completing missing values
+LabelEncoder,OneHotEncoder #LabelEncoder to encode values and OneHotEncoder to give dummy values
+
+random_state simply sets a seed to the random generator, so that your train-test splits are always deterministic. If you don't set a seed, it is different each time.
+#This ensures that the random numbers are generated in the same order
+
