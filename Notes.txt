@@ -1,3 +1,5 @@
+**Machine learning may seem intimidating at first, but the entire field is just many simple ideas combined together to yield extremely accurate models that can ‘learn’ from past data.**
+
 Difference between Python and R: indexing start from 0 in python while it starts from 1 in R
 
 iloc -> integer-location based indexing for selection by position.
@@ -7,3 +9,30 @@ LabelEncoder,OneHotEncoder #LabelEncoder to encode values and OneHotEncoder to g
 random_state simply sets a seed to the random generator, so that your train-test splits are always deterministic. If you don't set a seed, it is different each time.
 #This ensures that the random numbers are generated in the same order
 
+difference between scatter and plot 
+-scatter draws points without lines connecting them whereas plot may or may not plot the lines, depending on the arguments.
+-scatter allows you to specify a different colour and a different size for each point individually. 
+It is not possible to do that with plot.
+
+decision tree :
+http://www.simafore.com/blog/bid/62333/4-key-advantages-of-using-decision-trees-for-predictive-analytics
+advantages: 1) perform variable screening or feature selection
+	    2) require relatively little effort from users for data preparation	
+	    3) Nonlinear relationships between parameters do not affect tree performance
+	    4) The best feature of using trees for analytics - easy to interpret and explain to executives!
+
+disadvantages: overfitting - high variance classifiers i.e. the DT learnt is sensitive to the precise layout of points and, 
+if you have less data, can fit to noise. 
+Of course, high-variance of DTs can be addressed, and is usually done so with ensembling.
+
+random forest = group of decision trees
+The fundamental idea behind a random forest is to combine many decision trees into a single model. 
+Individually, predictions made by decision trees (or humans) may not be accurate, 
+but combined together, the predictions will be closer to the mark on average.
+-each decision tree in the forest considers a random subset of features when forming questions and only has access to a random set of the training data points.
+
+-one of the biggest advantages of using Decision Trees and Random Forests is,
+the ease in which we can see what features or variables contribute to the classification or regression and their relative importance based on their location depthwise in the tree.
+
+Ensemble learning - Ensemble Learning is when you take multiple algorithms or same algorithms multiple times and you put them together
+to make something much more powerful than the original.Random forest is part of Ensemble Learning.
