@@ -1,4 +1,7 @@
 **Machine learning may seem intimidating at first, but the entire field is just many simple ideas combined together to yield extremely accurate models that can ‘learn’ from past data.**
+_______________________________________________________________________________________________________________________________________________________________
+
+REGRESSION
 
 Difference between Python and R: indexing start from 0 in python while it starts from 1 in R
 
@@ -36,3 +39,36 @@ the ease in which we can see what features or variables contribute to the classi
 
 Ensemble learning - Ensemble Learning is when you take multiple algorithms or same algorithms multiple times and you put them together
 to make something much more powerful than the original.Random forest is part of Ensemble Learning.
+
+
+EVALUATING THE REGRESSION MODEL PERFORMANCE
+
+1) R-SQUARED(Simple Linear Regression) - Goodness of fit
+	SS(res) = sum(y - h(x)).^2
+	SS(total) = sum(y - h(x)(avg)).^2
+	R^2(R-square) = 1 - SS(res)/SS(total)
+	
+	value of R-square should be closer to 1.Ideally it is hardly 1 .value of R-square can be negative.
+
+2)Adjusted-R-Squared(Multiple Linear Regression)
+	problem with R-square-> in example of salary based on experience where salary is dependent variable(y) and experience is independent
+variable(x) ,if we add another independent variable 'Mobile Number' which has no correlation with y .but it will still affect the model.
+hence Adjusted R-Squared Model is used.
+
+	Adj R^2 = 1 - ((1-R^2)*((n-1)/(n-p-1)))
+	p = number of regressors
+	n = sample size	
+
+- as in Multiple Linear Regression.py during backward elimination ,we eliminated 'Marketing.Spend' because of p value of 0.6 when significance level
+was 0.5.BUT in such cases,check the value of Adjusted R-Squared,if the value is increasing with elimination of predictors,it is good thing.but if it decreases means model 
+is bad.Hence when we eliminated 'Marketing.Spend' cause of p value even though it was close,if we check adjusted r^2 value it decreases .
+Hence 'Marketing.Spend' shouldnt be eliminated for better performance.
+
+_______________________________________________________________________________________________________________________________________________________________
+
+CLASSIFICATION
+
+Logistic Regression - It’s a classification algorithm, that is used where the response variable is categorical. 
+The idea of Logistic Regression is to find a relationship between features and probability of particular outcome.
+-You may be wondering why the name says regression if it is a classification algorithm, well,**It uses the regression inside to be the classification algorithm.**
+
