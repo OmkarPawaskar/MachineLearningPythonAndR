@@ -72,3 +72,51 @@ Logistic Regression - It’s a classification algorithm, that is used where the re
 The idea of Logistic Regression is to find a relationship between features and probability of particular outcome.
 -You may be wondering why the name says regression if it is a classification algorithm, well,**It uses the regression inside to be the classification algorithm.**
 
+Logistic Regression - Linear Classifier
+KNN - Non Linear Classifier
+SVM - linear classifier
+kernel SVM - Gaussian Kernel Classifier
+
+
+Kernel SVM - when data is not linearly seperable we use kernel SVM.Kernel SVM changes the data from 2D to 3D to data is now linearly seperable.
+disadvantage: Mapping to higher dimensional space can be highly compute-inclusive.
+
+Naive Bayes - Collection of classification algorithms based on Bayes Theorem.
+Classifies given different instances (object/data) into predefined classes(groups), assuming there is no interdependency of features
+(class conditional independence). ie * assuming features are independent of each other
+eg:
+Since, there are a total of 60 objects, 40 of which are GREEN and 20 RED, our prior probabilities for class membership are:
+
+Prior Probability of GREEN: number of GREEN objects / total number of objects = 40 / 60
+
+Prior Probability of RED: number of RED objects / total number of objects = 20 / 60
+
+From the illustration above, it is clear that Likelihood of X given GREEN is smaller than Likelihood of X given RED, since the circle encompasses 1GREEN object and 3RED ones. 
+In the Bayesian analysis, the final classification is produced by combining both sources of information, 
+i.e., the prior and the likelihood, to form a posterior probability using the so-called Bayes' rule.
+posterior probability = prio probability X likelihood
+
+
+Decision Tree Classifier - Decision Tree Classifier, repetitively divides the working area(plot) into sub part by identifying lines. 
+(repetitively because there may be two distant regions of same class divided by other ).
+NOTE - Dividing efficiently based on maximum information gain is key to decision tree classifier. 
+However, in real world with millions of data dividing into pure class in practically not feasible (it may take longer training time) and 
+so we stop at points in nodes of tree when fulfilled with certain parameters (for example impurity percentage)
+https://medium.com/machine-learning-101/chapter-3-decision-trees-theory-e7398adac567
+
+Random Forest Classifier-
+Random forest classifier creates a set of decision trees from randomly selected subset of training set. 
+It then aggregates the votes from different decision trees to decide the final class of the test object.
+This works well because a single decision tree may be prone to a noise, but aggregate of many decision trees reduce the effect of noise giving more accurate results.
+
+Criterion in Decision tree and Random Forest
+Gini Impurity vs Entropy - 
+Gini impurity and Information Gain Entropy are pretty much the same. And people do use the values interchangeably. Below are the formulae of both:
+
+Gini:Gini(E)=1-?cj=1p2j
+Entropy:H(E)=-?cj=1pjlogpj
+Gini is intended for continuous attributes and Entropy is for attributes that occur in classes
+
+Gini is to minimize misclassification
+Entropy is for exploratory analysis
+
