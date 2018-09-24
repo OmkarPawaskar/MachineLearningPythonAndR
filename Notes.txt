@@ -120,3 +120,29 @@ Gini is intended for continuous attributes and Entropy is for attributes that oc
 Gini is to minimize misclassification
 Entropy is for exploratory analysis
 
+
+Evaluating Classification Models Performance- 
+1. Confusion Matrix
+2. Cumulative Accuracy Profile (CAP) Curve - The better your model, the larger will be the area between its CAP curve and the random scenario straight line.
+https://medium.com/@lotass/classification-models-performance-evaluation-c3a91562793
+
+
+_______________________________________________________________________________________________________________________________________________________________
+
+CLUSTERING : 
+-unsupervised learning
+-Cluster is the collection of data objects which are similar to one another within the same group (class or category) and are different from the objects in the other clusters.
+-Why Clustering?
+
+Clustering allows us to find hidden relationship between the data points in the dataset.
+2 types:
+1. Flat or partitioning algorithms - K-means
+
+2. Hierarchical algorithms:
+	a)Agglomerative(bottom to top)
+	b)Divisive(top to bottom)
+
+To find optimal no. of clusters :
+1)Elbow method (KMeans) 
+2) Dendogram Method - finding longest vertical line which is not intersected by horizontal line .AND then passing hypothetical horizontal line
+through it to find number of clusters.(check intuition in videos) 
