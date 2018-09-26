@@ -146,3 +146,34 @@ To find optimal no. of clusters :
 1)Elbow method (KMeans) 
 2) Dendogram Method - finding longest vertical line which is not intersected by horizontal line .AND then passing hypothetical horizontal line
 through it to find number of clusters.(check intuition in videos) 
+
+_______________________________________________________________________________________________________________________________________________________________
+
+ASSOCIATION RULE LEARNING:
+
+Mainly used as Market Basket Analysis (which products will be bought together - eg bread and milk)
+
+1.Apriori
+support is P(XY), confidence is P(XY)/P(X) and lift is P(XY)/P(X)P(Y), where the lift is a measurement of independence of X and Y (1 represents independent)
+high support: should apply to a large amount of cases
+high confidence: should be correct often
+high lift: indicates it is not just a coincidence
+2.Eclat-can also be called simplified version of Apriori
+-only based on support
+-To optimize the sales and revenue -> Apriori
+-but for simple information :set of products purchased together -> Eclat
+
+_______________________________________________________________________________________________________________________________________________________________
+
+REINFORCEMENT LEARNING
+Reinforcement Learning is a type of Machine Learning, and thereby also a branch of Artificial Intelligence. 
+It allows machines and software agents to automatically determine the ideal behaviour within a specific context, in order to maximize its performance.
+
+1) Upper Bound Confidence Strategy 
+ We always pick the option with the highest possible outcome, even if it that outcome very unlikely. 
+The intuition behind this strategy is that options with high uncertainty usually lead to a lot of new knowledge. 
+We don’t know enough about the option to accurately estimate the return and by pursuing that option we are bound to learn more and improve our future estimations. 
+For example, joining a startup could yield $0 of profits or $1B of profits. 
+Since most startups fail the expected outcome would probably be much closer to $0 than $1B, but the chance of making $1B still exists.
+
+2)Thompson Sampling
