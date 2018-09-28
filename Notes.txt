@@ -177,3 +177,32 @@ For example, joining a startup could yield $0 of profits or $1B of profits.
 Since most startups fail the expected outcome would probably be much closer to $0 than $1B, but the chance of making $1B still exists.
 
 2)Thompson Sampling
+
+_______________________________________________________________________________________________________________________________________________________________
+
+Natural Language Processing
+
+https://medium.com/@ageitgey/natural-language-processing-is-fun-9a0bff37854e 
+check diff steps of nlp.
+
+Applications:
+You can also use NLP on a text review to predict if the review is a good one or a bad one. 
+You can use NLP on an article to predict somecategories of the articlesyou are trying to segment.
+You can use NLP on a book to predict the genre of the book.
+And it can go further, you can use NLP to build a machine translator or a speech recognition system, and int hat last example you use classification algorithms to classify language.
+Speaking of classification algorithms, most of NLP algorithms are classification models, and they include Logistic Regression,
+A very well-known model in NLP is the Bagof Words model. It is a model used to preprocess the texts to classify before fitting the classification algorithms on the observations containing the texts.
+
+Stemming and Lemmatization:
+https://blog.bitext.com/what-is-the-difference-between-stemming-and-lemmatization/
+
+Bag of words- 
+https://machinelearningmastery.com/gentle-introduction-bag-words-model/
+
+Bag of Words (BoW) model is a simple algorithm used in Natural Language Processing.
+In BoW model a sentence or a document is considered as a 'Bag' containing words. 
+It will take into account the words and their frequency of occurrence in the sentence or the document disregarding semantic relationship in the sentences.
+
+Sparse Matrix - Sparse matrix is a matrix which contains very few non-zero elements. 
+When a sparse matrix is represented with 2-dimensional array, we waste lot of space to represent that matrix. 
+For example, consider a matrix of size 100 X 100 containing only 10 non-zero elements.
