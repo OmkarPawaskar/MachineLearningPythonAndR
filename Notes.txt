@@ -206,3 +206,27 @@ It will take into account the words and their frequency of occurrence in the sen
 Sparse Matrix - Sparse matrix is a matrix which contains very few non-zero elements. 
 When a sparse matrix is represented with 2-dimensional array, we waste lot of space to represent that matrix. 
 For example, consider a matrix of size 100 X 100 containing only 10 non-zero elements.
+
+_______________________________________________________________________________________________________________________________________________________________
+
+Deep Learning
+
+Deep Learning is the most exciting andpowerful branch ofMachine Learning. Deep Learning models can be used for a variety of complex tasks:
+
+-Artificial Neural Networksfor Regression and Classification
+-Convolutional Neural Networks for Computer Vision
+-Recurrent Neural Networks for Time Series Analysis
+-Self Organizing Maps for Feature Extraction
+-Deep Boltzmann Machinesfor Recommendation Systems
+-Auto Encoders for Recommendation Systems
+
+
+Artificial Neural Networks(ANN):
+https://medium.com/@tharanignanasegaram/artificial-neural-network-a-brief-introduction-572d462666f1
+https://medium.com/machinevision/overview-of-neural-networks-b86ce02ea3d1
+
+Artificial Neural Network (ANN) is a computational model used in Machine Learning which works similar to biological neurons.
+- Activation fucnction - 1.Threshold Function 2.Sigmoid Function 3.Rectifier Function(most used in ANN) 4.Tangential Function
+
+Cost Function - A cost function is a measure of "how good" a neural network did with respect to it's given training sample and the expected output. 
+It also may depend on variables such as weights and biases.
