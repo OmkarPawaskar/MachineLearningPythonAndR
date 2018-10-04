@@ -1,3 +1,5 @@
+data science”, I am referring to the collection of tools that turn data into real-world actions. These include machine learning, database technologies, statistics, programming, and domain-specific technologies.
+
 **Machine learning may seem intimidating at first, but the entire field is just many simple ideas combined together to yield extremely accurate models that can ‘learn’ from past data.**
 _______________________________________________________________________________________________________________________________________________________________
 
@@ -230,3 +232,29 @@ Artificial Neural Network (ANN) is a computational model used in Machine Learnin
 
 Cost Function - A cost function is a measure of "how good" a neural network did with respect to it's given training sample and the expected output. 
 It also may depend on variables such as weights and biases.
+
+
+Convolutional Neural Networks(CNN):
+https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148
+https://medium.com/@phidaouss/convolutional-neural-networks-cnn-or-convnets-d7c688b0a207
+
+In neural networks, Convolutional neural network (ConvNets or CNNs) is one of the main categories to do images recognition, images classifications. Objects detections, recognition faces etc.,
+ are some of the areas where CNNs are widely used.
+
+Filter, Kernel, or Feature Detector is a small matrix used for features detection. A typical filter on the first layer of a ConvNet might have a size [5x5x3].
+
+Convolved Feature, Activation Map or Feature Map is the output volume formed by sliding the filter over the image and computing the dot product.
+
+Receptive field is a local region of the input volume that has the same size as the filter.
+
+Depth is the number of filters.
+
+Stride has the objective of producing smaller output volumes spatially. For example, if a stride=2, the filter will shift by the amount of 2 pixels as it convolves around the input volume.
+
+Zero-padding adds zeros around the outside of the input volume so that the convolutions end up with the same number of outputs as inputs
+
+Depth column (or fibre) is the set of neurons that are all pointing to the same receptive field.
+
+
+difference between ANN and CNN :
+in ANN hidden layers dont have to be fully connected meanwhile in CNN fully connected layers are present.
