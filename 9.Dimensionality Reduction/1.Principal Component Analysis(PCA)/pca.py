@@ -41,9 +41,7 @@ y_pred = classifier.predict(X_test)
 #Making the Confusion Matrix- to evaluate the accuracy of a classification
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test,y_pred)
-#check cm in console,you will get array([[65,  3],
-      # [ 8, 24]], dtype=int64)
-#which means you got 65+24= 89 correct predictions and 3+8=11 wrong predictions
+
 
 #Visualizing the Training Set results
 from matplotlib.colors import ListedColormap
