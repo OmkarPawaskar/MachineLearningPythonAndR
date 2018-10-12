@@ -258,3 +258,49 @@ Depth column (or fibre) is the set of neurons that are all pointing to the same 
 
 difference between ANN and CNN :
 in ANN hidden layers dont have to be fully connected meanwhile in CNN fully connected layers are present.
+
+
+_______________________________________________________________________________________________________________________________________________________________
+
+Dimensionality Reduction
+https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/
+
+
+There are two types of Dimensionality Reduction techniques:
+
+Feature Selection
+Feature Extraction
+
+
+Feature Selection techniques are Backward Elimination, Forward Selection, Bidirectional Elimination,Score Comparison and more. 
+We covered these techniques in Part 2 - Regression.
+
+In this part we will cover the followingFeature Extraction techniques:
+
+Principal Component Analysis (PCA)
+Linear Discriminant Analysis (LDA) - https://machinelearningmastery.com/linear-discriminant-analysis-for-machine-learning/
+Kernel PCA
+Quadratic Discriminant Analysis (QDA)
+
+PCA - unsupervised model- doesnt consider dependent variable
+LDA- supervised model - considers dependent variable
+
+_______________________________________________________________________________________________________________________________________________________________
+
+
+Model Selection and Boosting
+
+k-Fold Cross Validation-
+https://medium.com/@mtterribile/understanding-cross-validations-purpose-53490faf6a86
+
+In K-folds cross validation, the data is divided into k equal parts as shown in the picture below. 
+Using the data, k iterations of model building and testing are performed. 
+Each of the k parts is used in one iteration as the test data, and in the other k-1 iterations as part of the training set. 
+At the end, the performance metrics from across the iterations can be analyzed to determine an average, range, standard deviation, or other useful metric.
+
+Grid Search - helps in improving the model by providing optimal hyperparameters(parameters which you provide manually)
+
+Advantages of XGBoost - 
+1.High Performance 
+2.Fast Execution Speed
+3.Can keep interpretation of model and problem
